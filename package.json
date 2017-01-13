@@ -1,0 +1,29 @@
+{
+  "name": "shop",
+  "version": "1.0.0",
+  "description": "shop",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack ./src/index.js ./public/bundle.js",
+    "lint": "eslint ./src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paylik/shop.git"
+  },
+  "author": "paylik@yandex.ru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paylik/shop/issues"
+  },
+  "homepage": "https://github.com/paylik/shop#readme",
+  "dependencies": {
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.13.1",
+    "webpack": "^2.2.0-rc.4"
+  }
+}
